@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "730496627465",
+    "project_id": "fire-autontication",
+    "storage_bucket": "fire-autontication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730496627465:android:32cecdea894e2005b2d9d8",
+        "android_client_info": {
+          "package_name": "com.example.fireautontication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_LUw9ru9wBvtp3qi9FcIPAFy1Mfme_F0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

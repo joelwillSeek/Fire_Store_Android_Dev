@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".register">
+    <!--    android:background="@drawable/bg"-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="#100F0F"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/signemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_transparent"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="20px"
+        android:textAlignment="center"
+        android:textColorHint="#0B0A0A" />
+
+    <EditText
+        android:id="@+id/signpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_transparent"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20px"
+        android:textAlignment="center"
+        android:textColorHint="#100F0F" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/signconfirmpassword"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Confirm Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:padding="60px"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColorHint="#100F0F" />-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signlogin"
+        android:textColor="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_button"
+        android:backgroundTintMode="add"
+        android:hapticFeedbackEnabled="true"
+        android:text="Sign up" />
+
+<!--<ProgressBar-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="match_parent"/>-->
+
+</LinearLayout>
